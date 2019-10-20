@@ -1,33 +1,55 @@
 body{
-	background: url(../Imagenes/fondo.png);
+	/*background: url(../Imagenes/fondo.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;  /* Para que el contenido se deslice, pero el fondo no*/
-	color: #000;
-	background-position: 50%;
+	/*color: #000;
+	background-position: 50%;*/
+	background: #535252;
+}
+img{
+	position: absolute;
+	height: 1000px;
+	top: -120px;
+	height: 1035px ;
+	right: 0.5px;
+	opacity: 0.70;
 }
 
 .menu{
 	position: relative;
-	background: #fff;
-	height: 15px;
-	padding: 5px
+	background: #7756BF;
+	height: 40px;
+	top: -40px;
+	width: 1339px;
+	right: 8px;
+	padding: 5px;
 }
 .menu a{
-	background: #000;
-	color:#fff;
-	height: 30px;
-	padding: 5px 5%;
+	font-size: 15px;
+	color:#000;
+	/*height: 1px;*/
+	padding: 14px;
 	position: relative;
-	left: 60%
+	left: 50%;
+	top: 8px;
 }
 
-body h2{
-	font-style: 150px;
+.inicio{
+	font-size: 28px;
+	position: absolute;
+	top: -20px;
+	left: 30px;
 }
 
 
 body div{
-	background: #fff
+	position: relative;
+	background: #fff;
+	height: 1500px;
+	width: 1339px;
+	top: -140px;
+	right: 8px;
+	padding: 5px;
 }
 
 /*.cabesera{
@@ -45,8 +67,12 @@ div div{
 }
 
 div footer{
-	height: 90px;
+	position: relative;
+	/*height: 1px;*/
+	width: 278.5px;
+	right: 5.5px;
 	padding: 5px 40%;
+	bottom: 2px;
 	background: #332f2c;
 }
 div footer p{
