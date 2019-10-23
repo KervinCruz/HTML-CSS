@@ -5,39 +5,51 @@ body{
 	background-attachment: fixed;  /* Para que el contenido se deslice, pero el fondo no*/
 	/*color: #000;
 	background-position: 50%;*/
-	background: #2271b3;
+	background: #0F7A8A;
 }
 
+/*Barra que se encuentra al iniciar la pagina*/
 .bienvenida{
 	text-align: center;
 	font-size: 30px;
 	color: #fff;
 	position: absolute;
-	background: #2271b3;
+	background: #0F7A8A;
 	height: 40px;
 	width:1259.5px;
 	left: 6.5px
 
 }
+/*Logo Centro de Pantalla*/
 .logo{
 	position: absolute;
-	height: 300px;
+	height: px;
 	right: 475px;
 	top: 85px;
 	opacity: 1;
 }
-.imagen{
+/*Logo Superios Menu*/
+.logo2{
 	position: absolute;
-	height: 1000px;
-	top: -200px;
-	height: 1035px ;
-	right: 0.5px;
-	opacity: 0.28;
+	height: 70px;
+	left: 100px;
+	top: 0.2px;
+	opacity: 0.9;
 }
 
+/*Imagen de Fondo*/
+.imagen{
+	position: absolute;
+	height: 712px;
+	top: -140px;
+	left: 1px;
+	opacity: 0.3;
+}
+
+/*Barra Menu*/
 .menu{
 	position: relative;
-	background: #fff/*#7756BF*/;
+	background: #fff952/*#7756BF*/;
 	height: 40px;
 	top: -15px;
 	width: 1256px;
@@ -45,17 +57,19 @@ body{
 	padding: 5px;
 }
 
+/*Items de Barra Menu*/
 .menu a{
 	font-size: 15px;
 	color:#000;
-	/*height: 1px;*/
-	padding: 14px;
+	height: 1px;
+	padding: 10px;
 	position: relative;
 	left: 50%;
 	top: 8px;
 }
 
-.inicio{
+.nombre_de_pagina{
+	color: #000;
 	font-size: 28px;
 	position: absolute;
 	top: -20px;
@@ -63,10 +77,11 @@ body{
 }
 
 
+/* Fondo Blanco*/
 body div{
 	position: relative;
 	background: #fff;
-	height: 1500px;
+	height: 1750px;
 	width: 1256px;
 	top: -140px;
 	right: 8px;
@@ -78,8 +93,8 @@ body div{
 }*/
 div div{
 	font-family: Arial;
-	width: 582px;
-	height: 286px;
+	width: 1226px;
+	height: 350px;
 	/*background: #2271b3;*/
 	color: #000;
 	/*margin: 40px;*/
@@ -95,9 +110,10 @@ div footer{
 	right: 5.5px;
 	padding: 5px 40%;
 	bottom: 2px;
-	background: #332f2c;
+	background: #332f2c;*/
 }
 div footer p{
+	text-align: center;
 	opacity: 0.50;
 	color: #2271b3;
 	font-size: 30px
@@ -113,20 +129,20 @@ div footer p{
 .caja2{
 	text-align: center;
 	position: absolute;
-	top: 460px;
-	right: 0.5%;
+	top: 530px;
+	left: 0.5%;
 }
 .caja3{
 	text-align: center;
 	position: absolute;
-	top: 805px;
+	top: 940px;
 	left: 0.5%;
 }
 .caja4{
 	text-align: center;
 	position: absolute;
-	top: 1145px;
-	right: 0.5% ;
+	top: 1348px;
+	left: 0.5% ;
 }
 
 .cuerpo{
@@ -135,5 +151,6 @@ div footer p{
 }
 
 aside{
+	text-align: center;
 	opacity: 0.70;
 }
